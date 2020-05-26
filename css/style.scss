@@ -292,12 +292,15 @@ footer {
         p, ul{
             margin: 20px;
             margin-top: 7px;
+            text-align: center;
+
         }
 
         ul li {
             display: inline-block;
             font-size: 20px;
             margin-right: 20px;
+            line-height: 50px;
             a:hover{
                 color: $dugme;
             }

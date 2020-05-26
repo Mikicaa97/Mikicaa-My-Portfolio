@@ -374,12 +374,14 @@ footer div.cfooter {
 footer div.cfooter p, footer div.cfooter ul {
   margin: 20px;
   margin-top: 7px;
+  text-align: center;
 }
 
 footer div.cfooter ul li {
   display: inline-block;
   font-size: 20px;
   margin-right: 20px;
+  line-height: 50px;
 }
 
 footer div.cfooter ul li a:hover {
