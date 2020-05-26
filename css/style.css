@@ -434,6 +434,10 @@ footer div.cfooter a {
     text-align: center;
     padding: 0 !important;
     display: block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .left {
     width: 70%;
@@ -470,6 +474,12 @@ footer div.cfooter a {
   /**CONTAINER**/
   #happyClients {
     background-image: url("../img/bgimageres.jpg");
+  }
+  #happyClients .bgimagetwo span {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   /*FOOTER*/
   footer div:first-child {
@@ -555,19 +565,25 @@ footer div.cfooter a {
 }
 
 @media (max-width: 480px) {
+  .bgimagetwo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   /*BGTEXT*/
   .bgtext {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   .bgtext h1 {
-    font-size: 45px !important;
+    font-size: 35px !important;
   }
   .bgtext h2 {
-    font-size: 25px !important;
+    font-size: 20px !important;
   }
   /*ABOUT*/
   #about .wprojects img {
-    height: 250px !important;
+    height: 200px !important;
   }
   /***LOGO***/
   #logo {
@@ -596,6 +612,7 @@ footer div.cfooter a {
         -ms-flex-direction: column;
             flex-direction: column;
     margin: 0px auto;
+    text-align: center;
   }
 }
 /*# sourceMappingURL=style.css.map */

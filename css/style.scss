@@ -352,6 +352,7 @@ footer {
         text-align: center;
         padding:0 !important;
         display: block;
+        flex-direction: column;
     }
    .left {
         width:70%;
@@ -381,7 +382,10 @@ footer {
     }
     /**CONTAINER**/
   #happyClients {
-    background-image: url('../img/bgimageres.jpg');   
+    background-image: url('../img/bgimageres.jpg');  
+    .bgimagetwo span{
+        flex-direction: column;
+    } 
   }
     /*FOOTER*/
     footer div:first-child {
@@ -457,20 +461,24 @@ footer {
 
 } 
 @media (max-width:480px){
+    //BGimagetwo
+    .bgimagetwo{
+        flex-direction: column;
+    }
     /*BGTEXT*/
     .bgtext{
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
     .bgtext h1 {
-        font-size: 45px !important;
+        font-size: 35px !important;
     }
     .bgtext h2 {
-        font-size: 25px !important;
+        font-size: 20px !important;
     }
     /*ABOUT*/
     #about .wprojects img{
 
-        height:250px !important;
+        height:200px !important;
     }
     /***LOGO***/
     #logo{
@@ -491,5 +499,6 @@ footer {
         align-items: center;
         flex-direction: column;
         margin: 0px auto;
+        text-align: center;
     }
 }
